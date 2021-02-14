@@ -1,4 +1,35 @@
-.header-post .header-right{
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+body{
+    background-color: lightcyan;
+    margin: 0%;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.post{
+    background: white;
+    margin-top: 10px;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+.post img{
+    width: 100%;   
+}
+
+.post .header-left:first-child{
+display: inline-block;
+width: 80%;
+font-family: 'Rubik', sans-serif;
+font-size: 20px;
+}
+
+.post .header-right:last-child{
+display: inline-block;
+width: 20%;
+text-align: right;
 }
