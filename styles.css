@@ -8,8 +8,12 @@ div{
 }
 
 .post{
-    background: white;
-    margin-top: 10px;
+background: white;
+margin-top: 10px;
+display: inline-block;
+width: 80%;
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
 }
 
 .header-post{
@@ -38,3 +42,20 @@ display: inline-block;
 width: 20%;
 text-align: right;
 }
+
+.post .awesome-left{
+ display: inline-block;
+width: 80%;
+}
+
+.post .awesome-left i{
+display: inline-block;
+margin: 7px;
+}
+
+.post .awesome-right{
+display: inline-block;
+width: 20%;
+padding-right: 10px;
+}
+
